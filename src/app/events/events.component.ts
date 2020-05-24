@@ -1,12 +1,14 @@
 import { Component, OnInit } from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-events',
+  templateUrl: './events.component.html',
+  styleUrls: ['./events.component.scss']
 })
-export class AppComponent implements OnInit {
-  title = 'mpecws';
+export class EventsComponent implements OnInit {
+
+  constructor() { }
 
   ngOnInit() {
 
