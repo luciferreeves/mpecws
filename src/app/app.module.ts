@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { EventsComponent } from './events/events.component';
 import { WorkComponent } from './work/work.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { WorkComponent } from './work/work.component';
     HomeComponent,
     MainPageComponent,
     EventsComponent,
-    WorkComponent
+    WorkComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
