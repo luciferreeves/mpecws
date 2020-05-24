@@ -3,3 +3,70 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.fluid {
+    width: 100%;
+}
+
+.dark {
+    background-color: #1B1C1D !important;
+    color: white !important;
+
+    h1, h2, h3, h4, h5, h6 {
+        color: white;
+    }
+}
+
+.padded {
+    padding: 5em 5% 5em 5%;
+}
+
+.noradius {
+    border-radius: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.mobileMenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    height: 100vh;
+    background-color: #fff;
+    display: none;
+    padding-right: 10px;
+}
+
+.sidebarToggle {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 95;
+    display: none;
+}
+
+.noscroll {
+    overflow: hidden;
+}
+
+@media (max-width: 864px) {
+    .sidebarToggle {
+        display: block;
+    }
+
+    .desktopMenu {
+        display: none;
+    }
+}
+
+.covid19Section {
+    background-color: red;
+    color: white;
+    padding: 15px;
+
+    a {
+        cursor: pointer;
+        color: white;
+        text-decoration: underline;
+    }
+}
